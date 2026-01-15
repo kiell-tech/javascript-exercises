@@ -9,9 +9,18 @@
 
 // Add your code right below, good luck!
 
+// Step #2: Do
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
+let greeting = "Hello! My name is " + firstName + " " + lastName + " and" + " I am " + (thisYear - birthYear) + " years old."
 
+console.log(greeting);
 
-
+// Step #3: Optimize
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
 
 // Do not change this
 module.exports = {
